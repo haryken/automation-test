@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="149.716962">
+<testcase classname="Create new asset" name="Create new asset - verify list" time="21.659433">
+<system-out><![CDATA[Given the user is on the login page.........................................passed
+When the user logins with account...........................................passed
+And the user navigates to the "Manage Asset" page...........................passed
+And the user clicks Create New Asset button.................................passed
+And the user creates a new asset............................................passed
+Then the user should see the asset in the list..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create new asset" name="Create new asset - verify detail" time="11.129345">
+<system-out><![CDATA[Given the user is on the login page.........................................passed
+When the user logins with account...........................................passed
+And the user navigates to the "Manage Asset" page...........................passed
+And the user clicks Create New Asset button.................................passed
+And the user creates a new asset............................................passed
+And the user clicks edit button.............................................passed
+Then the user should see the asset detail...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create new assignment" name="Create new assignment - verify list" time="14.165373">
+<system-out><![CDATA[Given the user is on the login page.........................................passed
+When the user logins with account...........................................passed
+And the user navigates to the "Manage Asset" page...........................passed
+And the user clicks Create New Asset button.................................passed
+And the user creates a new asset............................................passed
+And the user navigates to the "Manage Assignment" page......................passed
+And the user clicks Create New Assignment button............................passed
+And the user creates assignment.............................................passed
+Then the user should see the assignment in the list.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with valid admin account" time="8.523804">
+<system-out><![CDATA[Given the user is on the login page.........................................passed
+When the user logins with account...........................................passed
+Then the user should see the "Home" page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with valid user account" time="8.738177">
+<system-out><![CDATA[Given the user is on the login page.........................................passed
+When the user logins with account...........................................passed
+Then the user should see the "Home" page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with invalid admin account" time="7.770168">
+<system-out><![CDATA[Given the user is on the login page.........................................passed
+When the user logins with account...........................................passed
+Then the user should see the error message "Username or password is incorrect. Please try again".passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Logout of admin account" time="8.51268">
+<system-out><![CDATA[Given the user is on the login page.........................................passed
+When the user logins with account...........................................passed
+And the user logs out.......................................................passed
+Then the user should see the "Login" page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Logout of user account" time="9.523125">
+<system-out><![CDATA[Given the user is on the login page.........................................passed
+When the user logins with account...........................................passed
+And the user logs out.......................................................passed
+Then the user should see the "Login" page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Request For Returning" name="Return asset - Accept request - State changed to Completed" time="26.840748">
+<system-out><![CDATA[Given the user is on the login page.........................................passed
+When the user logins with account...........................................passed
+And the user navigates to the "Manage Asset" page...........................passed
+And the user clicks Create New Asset button.................................passed
+And the user creates a new asset............................................passed
+And the user navigates to the "Manage Assignment" page......................passed
+And the user clicks Create New Assignment button............................passed
+And the user creates assignment.............................................passed
+And the user logs out.......................................................passed
+When the user logins with account...........................................passed
+And the user clicks sort by asset code......................................passed
+And the user clicks the "accept" button.....................................passed
+And the user clicks "Accept" button from the pop up to accept...............passed
+And the user clicks the "return" button.....................................passed
+And the user clicks "Yes" button from the pop up to accept..................passed
+And the user logs out.......................................................passed
+When the user logins with account...........................................passed
+And the user navigates to the "Request for Returning" page..................passed
+And the user clicks sort assignment by asset code...........................passed
+And the user clicks the "accept" button.....................................passed
+And the user clicks "Yes" button from the pop up to accept..................passed
+Then the user should see request state as "Completed".......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Request For Returning" name="Return asset - Deny request - Request is removed from the list" time="32.854109">
+<system-out><![CDATA[Given the user is on the login page.........................................passed
+When the user logins with account...........................................passed
+And the user navigates to the "Manage Asset" page...........................passed
+And the user clicks Create New Asset button.................................passed
+And the user creates a new asset............................................passed
+And the user navigates to the "Manage Assignment" page......................passed
+And the user clicks Create New Assignment button............................passed
+And the user creates assignment.............................................passed
+And the user logs out.......................................................passed
+When the user logins with account...........................................passed
+And the user clicks sort by asset code......................................passed
+And the user clicks the "accept" button.....................................passed
+And the user clicks "Accept" button from the pop up to accept...............passed
+And the user clicks the "return" button.....................................passed
+And the user clicks "Yes" button from the pop up to accept..................passed
+And the user logs out.......................................................passed
+When the user logins with account...........................................passed
+And the user navigates to the "Request for Returning" page..................passed
+And the user clicks sort assignment by asset code...........................passed
+And the user clicks the "deny" button.......................................passed
+And the user clicks "Yes" button from the pop up to accept..................passed
+Then the user should not see the request....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

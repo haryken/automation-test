@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="10" skipped="0" total="10">
+<suite duration-ms="149710" name="cucumber.runtime.formatter.TestNGFormatter">
+<test duration-ms="149710" name="cucumber.runtime.formatter.TestNGFormatter">
+<class name="Create new asset">
+<test-method duration-ms="21658" finished-at="2022-08-13T11:52:24Z" name="Create new asset - verify list" started-at="2022-08-13T11:52:24Z" status="PASS"/>
+<test-method duration-ms="11129" finished-at="2022-08-13T11:52:24Z" name="Create new asset - verify detail" started-at="2022-08-13T11:52:24Z" status="PASS"/>
+</class>
+<class name="Create new assignment">
+<test-method duration-ms="14165" finished-at="2022-08-13T11:52:24Z" name="Create new assignment - verify list" started-at="2022-08-13T11:52:24Z" status="PASS"/>
+</class>
+<class name="Login">
+<test-method duration-ms="8523" finished-at="2022-08-13T11:52:24Z" name="Login with valid admin account" started-at="2022-08-13T11:52:24Z" status="PASS"/>
+<test-method duration-ms="8738" finished-at="2022-08-13T11:52:24Z" name="Login with valid user account" started-at="2022-08-13T11:52:24Z" status="PASS"/>
+<test-method duration-ms="7770" finished-at="2022-08-13T11:52:24Z" name="Login with invalid admin account" started-at="2022-08-13T11:52:24Z" status="PASS"/>
+</class>
+<class name="Login">
+<test-method duration-ms="8512" finished-at="2022-08-13T11:52:24Z" name="Logout of admin account" started-at="2022-08-13T11:52:24Z" status="PASS"/>
+<test-method duration-ms="9522" finished-at="2022-08-13T11:52:24Z" name="Logout of user account" started-at="2022-08-13T11:52:24Z" status="PASS"/>
+</class>
+<class name="Request For Returning">
+<test-method duration-ms="26840" finished-at="2022-08-13T11:52:24Z" name="Return asset - Accept request - State changed to Completed" started-at="2022-08-13T11:52:24Z" status="PASS"/>
+<test-method duration-ms="32853" finished-at="2022-08-13T11:52:24Z" name="Return asset - Deny request - Request is removed from the list" started-at="2022-08-13T11:52:24Z" status="PASS"/>
+</class>
+</test>
+</suite>
+</testng-results>

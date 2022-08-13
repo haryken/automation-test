@@ -1,0 +1,2106 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-13T04:49:54.943Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2827177900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.setupCukesBeforeScenarioAndConfigSpringContext(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Create new asset - verify list",
+        "description": "",
+        "id": "create-new-asset;create-new-asset---verify-list;;2",
+        "after": [
+          {
+            "output": [
+              null
+            ],
+            "result": {
+              "duration": 778028800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.cleanUpAfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3567282600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginSteps.java:27"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11747280300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logins with account",
+            "match": {
+              "location": "LoginSteps.java:31"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin_1",
+                  "1234567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128048800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user navigates to the \"Manage Asset\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manage Asset",
+                  "offset": 27
+                }
+              ],
+              "location": "DashboardSteps.java:27"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100504100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user clicks Create New Asset button",
+            "match": {
+              "location": "ManageAssetSteps.java:20"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1031318200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user creates a new asset",
+            "match": {
+              "location": "CreateNewAssetSteps.java:19"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "specification",
+                  "state"
+                ]
+              },
+              {
+                "cells": [
+                  "random",
+                  "15 Inch 1080p",
+                  "Available"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1478661900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user should see the asset in the list",
+            "match": {
+              "location": "ManageAssetSteps.java:28"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "state"
+                ]
+              },
+              {
+                "cells": [
+                  "random",
+                  "Available"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@asset"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-13T04:50:16.615Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1266195100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.setupCukesBeforeScenarioAndConfigSpringContext(Scenario)"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Create new asset - verify detail",
+        "description": "",
+        "id": "create-new-asset;create-new-asset---verify-detail;;2",
+        "after": [
+          {
+            "output": [
+              null
+            ],
+            "result": {
+              "duration": 690764700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.cleanUpAfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3606692900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginSteps.java:27"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2598540400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user logins with account",
+            "match": {
+              "location": "LoginSteps.java:31"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin_1",
+                  "1234567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94075600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user navigates to the \"Manage Asset\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manage Asset",
+                  "offset": 27
+                }
+              ],
+              "location": "DashboardSteps.java:27"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102619800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user clicks Create New Asset button",
+            "match": {
+              "location": "ManageAssetSteps.java:20"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 981627100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user creates a new asset",
+            "match": {
+              "location": "CreateNewAssetSteps.java:19"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "specification",
+                  "state"
+                ]
+              },
+              {
+                "cells": [
+                  "random",
+                  "15 Inch 1080p",
+                  "Available"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1177447600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user clicks edit button",
+            "match": {
+              "location": "ManageAssetSteps.java:24"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 611196000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user should see the asset detail",
+            "match": {
+              "location": "CreateNewAssetSteps.java:24"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "specification"
+                ]
+              },
+              {
+                "cells": [
+                  "random",
+                  "15 Inch 1080p"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@asset"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Create new asset",
+    "description": "",
+    "id": "create-new-asset",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CreateNewAsset.feature",
+    "tags": [
+      {
+        "name": "@asset",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-13T04:50:27.750Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1253317800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.setupCukesBeforeScenarioAndConfigSpringContext(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Create new assignment - verify list",
+        "description": "",
+        "id": "create-new-assignment;create-new-assignment---verify-list",
+        "after": [
+          {
+            "output": [
+              null
+            ],
+            "result": {
+              "duration": 683916600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.cleanUpAfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4107308400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginSteps.java:27"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2620525900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logins with account",
+            "match": {
+              "location": "LoginSteps.java:31"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin_1",
+                  "1234567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135309000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user navigates to the \"Manage Asset\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manage Asset",
+                  "offset": 27
+                }
+              ],
+              "location": "DashboardSteps.java:27"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108345200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user clicks Create New Asset button",
+            "match": {
+              "location": "ManageAssetSteps.java:20"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998705000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user creates a new asset",
+            "match": {
+              "location": "CreateNewAssetSteps.java:19"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "specification",
+                  "state"
+                ]
+              },
+              {
+                "cells": [
+                  "random",
+                  "15 Inch 1080p",
+                  "Available"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100776400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user navigates to the \"Manage Assignment\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manage Assignment",
+                  "offset": 27
+                }
+              ],
+              "location": "DashboardSteps.java:27"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108571700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user clicks Create New Assignment button",
+            "match": {
+              "location": "ManageAssignmentSteps.java:20"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2468598600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user creates assignment",
+            "match": {
+              "location": "CreateNewAssignmentSteps.java:15"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "user",
+                  "asset"
+                ]
+              },
+              {
+                "cells": [
+                  "SD0005",
+                  "random"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1579653100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user should see the assignment in the list",
+            "match": {
+              "location": "ManageAssignmentSteps.java:24"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "user",
+                  "asset"
+                ]
+              },
+              {
+                "cells": [
+                  "chuongt",
+                  "random"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@assignment"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Create new assignment",
+    "description": "",
+    "id": "create-new-assignment",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CreateNewAssignment.feature",
+    "tags": [
+      {
+        "name": "@assignment",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-13T04:50:41.922Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1273243100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.setupCukesBeforeScenarioAndConfigSpringContext(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with valid admin account",
+        "description": "",
+        "id": "login;login-with-valid-admin-account",
+        "after": [
+          {
+            "output": [
+              null
+            ],
+            "result": {
+              "duration": 679981900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.cleanUpAfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3883803000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginSteps.java:27"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2636935700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logins with account",
+            "match": {
+              "location": "LoginSteps.java:31"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin_1",
+                  "1234567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49764400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user should see the \"Home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 25
+                }
+              ],
+              "location": "DashboardSteps.java:17"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-13T04:50:50.454Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1284413400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.setupCukesBeforeScenarioAndConfigSpringContext(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login with valid user account",
+        "description": "",
+        "id": "login;login-with-valid-user-account",
+        "after": [
+          {
+            "output": [
+              null
+            ],
+            "result": {
+              "duration": 681069000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.cleanUpAfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4108805400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginSteps.java:27"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2622012200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user logins with account",
+            "match": {
+              "location": "LoginSteps.java:31"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "chuongt",
+                  "1234567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41794900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user should see the \"Home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 25
+                }
+              ],
+              "location": "DashboardSteps.java:17"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-13T04:50:59.199Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1273219800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.setupCukesBeforeScenarioAndConfigSpringContext(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login with invalid admin account",
+        "description": "",
+        "id": "login;login-with-invalid-admin-account",
+        "after": [
+          {
+            "output": [
+              null
+            ],
+            "result": {
+              "duration": 682504100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.cleanUpAfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3655015800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginSteps.java:27"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2087398900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user logins with account",
+            "match": {
+              "location": "LoginSteps.java:31"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "wrongUsername",
+                  "wrongPassword"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71960200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user should see the error message \"Username or password is incorrect. Please try again\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Username or password is incorrect. Please try again",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginSteps.java:37"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-13T04:51:06.976Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1267421800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.setupCukesBeforeScenarioAndConfigSpringContext(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Logout of admin account",
+        "description": "",
+        "id": "login;logout-of-admin-account",
+        "after": [
+          {
+            "output": [
+              null
+            ],
+            "result": {
+              "duration": 672525400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.cleanUpAfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3651182000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginSteps.java:27"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2630351100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user logins with account",
+            "match": {
+              "location": "LoginSteps.java:31"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin_1",
+                  "1234567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 250868700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user logs out",
+            "match": {
+              "location": "DashboardSteps.java:21"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40213700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see the \"Login\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 25
+                }
+              ],
+              "location": "DashboardSteps.java:17"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@logout"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-13T04:51:15.495Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1282286600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.setupCukesBeforeScenarioAndConfigSpringContext(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Logout of user account",
+        "description": "",
+        "id": "login;logout-of-user-account",
+        "after": [
+          {
+            "output": [
+              null
+            ],
+            "result": {
+              "duration": 674189000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.cleanUpAfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4636282700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginSteps.java:27"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2595101000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user logins with account",
+            "match": {
+              "location": "LoginSteps.java:31"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "chuongt",
+                  "1234567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 290520600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user logs out",
+            "match": {
+              "location": "DashboardSteps.java:21"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44615500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user should see the \"Login\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 25
+                }
+              ],
+              "location": "DashboardSteps.java:17"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@logout"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Logout.feature",
+    "tags": [
+      {
+        "name": "@logout",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 9
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-13T04:51:25.027Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1312588900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.setupCukesBeforeScenarioAndConfigSpringContext(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Return asset - Accept request - State changed to Completed",
+        "description": "",
+        "id": "request-for-returning;return-asset---accept-request---state-changed-to-completed",
+        "after": [
+          {
+            "output": [
+              null
+            ],
+            "result": {
+              "duration": 668963400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.cleanUpAfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4377776500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginSteps.java:27"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2610311100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logins with account",
+            "match": {
+              "location": "LoginSteps.java:31"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin_1",
+                  "1234567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107524900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user navigates to the \"Manage Asset\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manage Asset",
+                  "offset": 27
+                }
+              ],
+              "location": "DashboardSteps.java:27"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103997300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user clicks Create New Asset button",
+            "match": {
+              "location": "ManageAssetSteps.java:20"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999808200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user creates a new asset",
+            "match": {
+              "location": "CreateNewAssetSteps.java:19"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "specification",
+                  "state"
+                ]
+              },
+              {
+                "cells": [
+                  "random",
+                  "15 Inch 1080p",
+                  "Available"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102846800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user navigates to the \"Manage Assignment\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manage Assignment",
+                  "offset": 27
+                }
+              ],
+              "location": "DashboardSteps.java:27"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138283000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user clicks Create New Assignment button",
+            "match": {
+              "location": "ManageAssignmentSteps.java:20"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2515341100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user creates assignment",
+            "match": {
+              "location": "CreateNewAssignmentSteps.java:15"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "user",
+                  "asset"
+                ]
+              },
+              {
+                "cells": [
+                  "SD0005",
+                  "random"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271707800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user logs out",
+            "match": {
+              "location": "DashboardSteps.java:21"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1460321300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user logins with account",
+            "match": {
+              "location": "LoginSteps.java:31"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "chuongt",
+                  "1234567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2107738200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user clicks sort by asset code",
+            "match": {
+              "location": "HomeSteps.java:25"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 642907200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user clicks the \"accept\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "accept",
+                  "offset": 21
+                }
+              ],
+              "location": "HomeSteps.java:17"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102401400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user clicks \"Accept\" button from the pop up to accept",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Accept",
+                  "offset": 17
+                }
+              ],
+              "location": "HomeSteps.java:34"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1201092700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user clicks the \"return\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "return",
+                  "offset": 21
+                }
+              ],
+              "location": "HomeSteps.java:17"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122169100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user clicks \"Yes\" button from the pop up to accept",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 17
+                }
+              ],
+              "location": "HomeSteps.java:34"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 269986000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user logs out",
+            "match": {
+              "location": "DashboardSteps.java:21"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1459676700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user logins with account",
+            "match": {
+              "location": "LoginSteps.java:31"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin_1",
+                  "1234567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114536800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user navigates to the \"Request for Returning\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Request for Returning",
+                  "offset": 27
+                }
+              ],
+              "location": "DashboardSteps.java:27"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4269628500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user clicks sort assignment by asset code",
+            "match": {
+              "location": "HomeSteps.java:29"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 622082600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user clicks the \"accept\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "accept",
+                  "offset": 21
+                }
+              ],
+              "location": "HomeSteps.java:17"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140838800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user clicks \"Yes\" button from the pop up to accept",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 17
+                }
+              ],
+              "location": "HomeSteps.java:34"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1117842900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user should see request state as \"Completed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Completed",
+                  "offset": 38
+                }
+              ],
+              "location": "RequestForReturningSteps.java:16"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@request"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-13T04:51:51.873Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1252735500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.setupCukesBeforeScenarioAndConfigSpringContext(Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Return asset - Deny request - Request is removed from the list",
+        "description": "",
+        "id": "request-for-returning;return-asset---deny-request---request-is-removed-from-the-list",
+        "after": [
+          {
+            "output": [
+              null
+            ],
+            "result": {
+              "duration": 706753200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukesHook.cleanUpAfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5400762100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginSteps.java:27"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2574339800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user logins with account",
+            "match": {
+              "location": "LoginSteps.java:31"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin_1",
+                  "1234567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90897700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the user navigates to the \"Manage Asset\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manage Asset",
+                  "offset": 27
+                }
+              ],
+              "location": "DashboardSteps.java:27"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106645700,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user clicks Create New Asset button",
+            "match": {
+              "location": "ManageAssetSteps.java:20"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 986109700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the user creates a new asset",
+            "match": {
+              "location": "CreateNewAssetSteps.java:19"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "specification",
+                  "state"
+                ]
+              },
+              {
+                "cells": [
+                  "random",
+                  "15 Inch 1080p",
+                  "Available"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104923600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "the user navigates to the \"Manage Assignment\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manage Assignment",
+                  "offset": 27
+                }
+              ],
+              "location": "DashboardSteps.java:27"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118515000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "the user clicks Create New Assignment button",
+            "match": {
+              "location": "ManageAssignmentSteps.java:20"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2526613900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the user creates assignment",
+            "match": {
+              "location": "CreateNewAssignmentSteps.java:15"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "user",
+                  "asset"
+                ]
+              },
+              {
+                "cells": [
+                  "SD0005",
+                  "random"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215924700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "the user logs out",
+            "match": {
+              "location": "DashboardSteps.java:21"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1454549300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "the user logins with account",
+            "match": {
+              "location": "LoginSteps.java:31"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "chuongt",
+                  "1234567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2114222100,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "the user clicks sort by asset code",
+            "match": {
+              "location": "HomeSteps.java:25"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 638695000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "the user clicks the \"accept\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "accept",
+                  "offset": 21
+                }
+              ],
+              "location": "HomeSteps.java:17"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134805200,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "the user clicks \"Accept\" button from the pop up to accept",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Accept",
+                  "offset": 17
+                }
+              ],
+              "location": "HomeSteps.java:34"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1173052500,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "the user clicks the \"return\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "return",
+                  "offset": 21
+                }
+              ],
+              "location": "HomeSteps.java:17"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120846000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "the user clicks \"Yes\" button from the pop up to accept",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 17
+                }
+              ],
+              "location": "HomeSteps.java:34"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 269420700,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "the user logs out",
+            "match": {
+              "location": "DashboardSteps.java:21"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1456791200,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "the user logins with account",
+            "match": {
+              "location": "LoginSteps.java:31"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin_1",
+                  "1234567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111885000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "the user navigates to the \"Request for Returning\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Request for Returning",
+                  "offset": 27
+                }
+              ],
+              "location": "DashboardSteps.java:27"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4251794300,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "the user clicks sort assignment by asset code",
+            "match": {
+              "location": "HomeSteps.java:29"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 632604200,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the user clicks the \"deny\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "deny",
+                  "offset": 21
+                }
+              ],
+              "location": "HomeSteps.java:17"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106217600,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "the user clicks \"Yes\" button from the pop up to accept",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 17
+                }
+              ],
+              "location": "HomeSteps.java:34"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6304583600,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "the user should not see the request",
+            "match": {
+              "location": "RequestForReturningSteps.java:21"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@request"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Request For Returning",
+    "description": "",
+    "id": "request-for-returning",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/RequestForReturning.feature",
+    "tags": [
+      {
+        "name": "@request",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 10
+        }
+      }
+    ]
+  }
+]

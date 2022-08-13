@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.oam.configuration.CukesTestRunnerParallel
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 151.54 s - in com.oam.configuration.CukesTestRunnerParallel
