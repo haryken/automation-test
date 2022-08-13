@@ -21,6 +21,16 @@ public class HomeSteps extends AbstractStep implements En {
         And("^the user clicks sort by asset name$", () -> {
             homePage.clickSortByAssetName();
         });
+
+        And("^the user clicks sort by asset code$", () -> {
+            homePage.clickSortByAssetCode();
+        });
+
+        And("^the user clicks sort assignment by asset code$", () -> {
+            homePage.clickSortByAssetCode();
+            homePage.clickSortByAssetCode();
+        });
+
         And("^the user clicks \"(.*)\" button from the pop up to accept$", (String buttonType) -> {
             homePage.clickAcceptBtn();
         });
