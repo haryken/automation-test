@@ -27,4 +27,10 @@ public class HomePage extends BasePage {
         By sortByAssetNameEle = objectmap.getLocator("sorting.assetName");
         clickElement(sortByAssetNameEle);
     }
+
+    public void clickSortByAssetCode() throws InterruptedException {
+        By sortByAssetCodeEle = objectmap.getLocator("sorting.assetCode");
+        Thread.sleep(2000);
+        clickElement(sortByAssetCodeEle);
+    }
 }
