@@ -20,7 +20,7 @@ Feature: Request For Returning
     When the user logins with account
       | username    | password   |
       | chuongt     | 1234567    |
-    And the user clicks sort by asset name
+    And the user clicks sort by asset code
     And the user clicks the "accept" button
     And the user clicks "Accept" button from the pop up to accept
     And the user clicks the "return" button
@@ -30,6 +30,7 @@ Feature: Request For Returning
       | username | password |
       | admin_1  | 1234567  |
     And the user navigates to the "Request for Returning" page
+    And the user clicks sort assignment by asset code
     And the user clicks the "accept" button
     And the user clicks "Yes" button from the pop up to accept
     Then the user should see request state as "Completed"
@@ -54,7 +55,7 @@ Feature: Request For Returning
     When the user logins with account
       | username    | password   |
       | chuongt     | 1234567    |
-    And the user clicks sort by asset name
+    And the user clicks sort by asset code
     And the user clicks the "accept" button
     And the user clicks "Accept" button from the pop up to accept
     And the user clicks the "return" button
@@ -64,7 +65,7 @@ Feature: Request For Returning
       | username | password |
       | admin_1  | 1234567  |
     And the user navigates to the "Request for Returning" page
+    And the user clicks sort assignment by asset code
     And the user clicks the "deny" button
     And the user clicks "Yes" button from the pop up to accept
     Then the user should not see the request
-
